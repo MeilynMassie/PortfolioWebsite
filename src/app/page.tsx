@@ -1,5 +1,7 @@
 import Header from "@/components/Header";
 import RotatingSkills from "@/components/RotatingSkills";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 export default function Home() {
   return (
@@ -11,6 +13,12 @@ export default function Home() {
           <div className="flex-1">
             <h1 className="text-3xl font-bold">
               Hi! My name is Meilyn Massie and welcome to my portfolio!
+            </h1>
+            <h1 className="text-3xl mt-6">
+              Education: 
+            </h1>
+            <h1 className="text-3xl mt-6">
+              Work Experience: 
             </h1>
           </div>
 
