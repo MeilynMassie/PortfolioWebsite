@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 export default function Header() {
   return (
     <div className="fixed top-0 left-0 w-full z-50 flex flex-col items-center gap-4 p-4 bg-zinc-100 dark:bg-zinc-900 shadow-md">
-      <div className="absolute top-4 left-4 flex flex-col gap-2">
+      <div className="relative flex flex-col items-center gap-2 sm:absolute sm:top-4 sm:left-4">
         <a
           href="https://linkedin.com/in/meilynmassie"
           target="_blank"
