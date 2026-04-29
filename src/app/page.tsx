@@ -2,11 +2,10 @@ import Header from "@/components/Header";
 import RotatingSkills from "@/components/RotatingSkills";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
-
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main>
+      <main className="pt-40 sm:pt-24 w-full">
         <Header />
         <div className="flex flex-col md:flex-row items-start justify-between gap-8 p-8">
           {/* Left: Text */}
