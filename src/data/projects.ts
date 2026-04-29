@@ -62,6 +62,21 @@ export const allProjects: Project[] = [
     github: "https://github.com/MeilynMassie/PortfolioWebsite",
     websiteDemo: "https://portfolio-website-animei11s-projects.vercel.app/",
   },
+  {
+    id: "04",
+    year: 2026,
+    date: "April 2026",
+    title: "Trivia UI",
+    peekStack: "Angular · TypeScript · Trivia API",
+    body: "Angular trivia web application that calls my custom trivia API to display questions and allow users to submit answers. The database keeps track of user scores and displays a leaderboard.",
+    techStack: ["Angular", "TypeScript", "Tailwind CSS", "JavaScript", "Vercel"],
+    status: "In progress",
+    statusColor: "bg-amber-500",
+    github: "https://github.com/MeilynMassie/TriviaUi",
+    websiteDemo: "https://trivia-ui-animei11s-projects.vercel.app/",
+  },
+  
   
   ...featuredProjects,
 ];
+

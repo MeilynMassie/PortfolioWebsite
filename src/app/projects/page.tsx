@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <>
       {view === "home" && (
-        <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+        <div className="pt-60 sm:pt-24 w-full flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
           <main className="flex flex-col items-center gap-12">
             <Header />
             <div className="flex flex-wrap justify-center gap-8">
