@@ -21,12 +21,13 @@ export function LetterModal({ project, onClose }: { project: Project; onClose: (
         </div>
         <div className="mb-5 h-px bg-zinc-100 dark:bg-zinc-800" />
         <div className="relative mb-5">
+          <p className="mb-2 font-mono text-[10px] font-medium uppercase tracking-widest text-zinc-800 dark:text-zinc-200">Project Description</p>
           <LinedPaper>
             <p className="relative text-[15px] leading-7 text-zinc-700 dark:text-zinc-300">{project.body}</p>
           </LinedPaper>
         </div>        
-        <p className="mb-2 font-mono text-[10px] font-medium uppercase tracking-widest text-zinc-400 dark:text-zinc-500">GitHub</p>
-        <p className="mb-6 font-mono text-[11px] tracking-wide text-zinc-400 dark:text-zinc-500">{project.github}</p>
+        <p className="mb-2 font-mono text-[10px] font-medium uppercase tracking-widest text-zinc-800 dark:text-zinc-200">GitHub</p>
+        <p className="mb-6 font-mono text-[11px] tracking-wide text-zinc-700 dark:text-zinc-300">{project.github}</p>
         <DemoDisplay project={project} />
         <div className="mb-4 mt-6 h-px bg-zinc-100 dark:bg-zinc-800" />
         <div className="flex items-center justify-between">

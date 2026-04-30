@@ -12,11 +12,11 @@ export type Project = {
   year: number;
   date: string;
   title: string;
-  techStack: string[];
+  techStack?: string[];
   peekStack: string;
-  body: string;
-  status: string;
-  statusColor: string;
+  body?: string;
+  status?: string;
+  statusColor?: string;
   github: string;
   videoDemo?: string;
   videoPoster?: string;
